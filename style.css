@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+  *{
+margin: 0;
+padding: 0;
+}
+body{
+height: 100vh;
+box-sizing: border-box;
+background: #000000;    /*preto*/
+color: #f6f6f6; /*branco*/
+}.titulo-destaque{
+color: #22D4FD; /*Azul ciano*/
+}
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao_conteudo{
+width: 615px;
+display: flex;
+flex-direction: column;
+gap: 40px;
+
+}
+.apresentacao_conteudo_titulo{
+font-size: 36px;
+font-family:"Krona One", serif; ;
+}
+.imgfoto{
+width: 400px;
+height: 90%;
+margin-left: 10%;
+
+}
+.apresentacao_conteudo_texto{
+font-size:24px ;
+font-family:' Montserrat' , sans-serif;
+}
+.apresentacao_link{
+display: flex;                   /*propriedade display*/
+justify-content: space-between;  
+
+}
+.apresentacao_links_link{
+background-color: #22d4fd;
+width: 280px;
+font-weight: 600;
+text-align: center;
+border-radius: 16px;
+font-size: 24px;
+padding: 21.5px 0;
+text-decoration: none;
+color: #000;
+font-family:' Montserrat' , sans-serif;
+}
+  .apresentacao_link a:hover{
+   
+   color: green;
+  
+  }
+
